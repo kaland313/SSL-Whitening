@@ -49,7 +49,8 @@ To run the container without starting an ssh server, run `make run`.
 
 To customize Docker build and run, edit the [Makefile](Makefile) or the [Dockerfile](Dockerfile).
 
-> :warning: `make ssh` and `make run` start the container with the `--rm` flag! Only contents of the `/workspace` persist if the container is stopped (via a simple volume mount)!
+> [!WARNING]
+> `make ssh` and `make run` start the container with the `--rm` flag! Only contents of the `/workspace` persist if the container is stopped (via a simple volume mount)!
 
 ### Option B: Install dependencies locally (not tested)
 
